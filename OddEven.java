@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
-
 class OddEven
 {
     public static void main(String args[]){
-    Scanner sc=new Scanner(System.in);
+    Scanner sc= new Scanner(System.in);
     int num;
     System.out.print("Enter a number: ");
     num=sc.nextInt();
@@ -17,5 +15,6 @@ class OddEven
     }
     else
     System.out.println("Neither Odd nor Even");
+    sc.close();
 }
 }

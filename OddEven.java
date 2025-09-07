@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder;
+
 class OddEven
 {
     public static void main(String args[]){
